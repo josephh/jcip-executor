@@ -14,7 +14,7 @@ public class RequestHandler {
 
         PrintWriter out = new PrintWriter(conn.getOutputStream(), true);
 
-        out.println("Received input : " + in.readLine());
-        out.println(new Date().toString());
+        System.out.println("Received input : " + in.readLine());
+        System.out.println(new Date().toString());
     }
 }
