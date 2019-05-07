@@ -3,7 +3,7 @@ import java.net.ServerSocket;
 
 /**
  * SingleThreadWebServer processes requests arriving at its port sequentially.
- * 
+ *
  * This server is simple and theoretically correct but it will exhibit poor performance as it can only handle one
  * request at a time.
  */
